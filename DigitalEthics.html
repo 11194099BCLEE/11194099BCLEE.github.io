@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WLC WebDev BCL</title>
+  <style>
+    /* Grouping Selectors */
+    body, h1, h2, h3, p {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #cfcece;
+      line-height: 1.6;
+    }
+
+    /* Header Styles with Positioning */
+    .header {
+      background-color: #391aac;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    nav {
+      background-color: #333;
+    }
+
+    /* Grouping and Floating */
+    #navbar {
+      list-style: none;
+      overflow: hidden;
+      padding: 0;
+      margin: 0;
+    }
+
+    #navbar li {
+      float: left;
+    }
+
+    #navbar li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    /* Dynamic Pseudo-classes */
+    #navbar li a:hover {
+      background-color: #111;
+    }
+
+    #navbar li a:visited {
+      color: #ccc;
+    }
+
+    /* Container Styling with Box Model */
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 20px;
+      background: #fff;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .content p {
+      margin-bottom: 15px;
+    }
+
+    .content img {
+      float: right;
+      margin: 10px;
+      max-width: 30%;
+      height: auto;
+    }
+
+    .guidelines li {
+      margin-left: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    td, th {
+      border: 1px solid #999;
+      padding: 10px;
+      text-align: left;
+    }
+
+    /* Specificity Override */
+    table.ethics-table td {
+      background-color: #f0f8ff;
+      font-weight: bold;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .content img {
+        float: none;
+        display: block;
+        max-width: 100%;
+        margin: 10px auto;
+      }
+
+      #navbar li {
+        float: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Understanding Digital Ethics</h1>
+  </div>
+
+  <nav>
+    <ul id="navbar">
+      <li><a href="Index.html">Home</a></li>
+      <li><a href="HealthyEating.html">Healthy Eating</a></li>
+      <li><a href="DigitalEthics.html">Digital Ethics</a></li>
+      <li><a href="?">Equality and Diversity</a></li>
+      <li><a href="Digitalfootprint.html">Digital Footprint</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="content">
+      <h3>Digital Ethics Concept</h3>
+      <p>
+        <strong>Digital ethics</strong> refers to the principles and moral values governing responsible behavior when using technology. In an increasingly connected world, it's essential to understand how our actions in the digital space affect others and society.
+      </p>
+      <img src="DigitalEthics.png" alt="Digital Ethics Illustration" />
+      <h2>Key Principles of Digital Ethics</h2>
+      <ul class="guidelines">
+        <li><strong>Privacy:</strong> Respect user data and personal boundaries.</li>
+        <li><strong>Security:</strong> Protect data from breaches and misuse.</li>
+        <li><strong>Transparency:</strong> Clearly communicate how tech is used and how decisions are made.</li>
+        <li><strong>Inclusivity:</strong> Ensure access and accessibility for all users.</li>
+        <li><strong>Accountability:</strong> Take responsibility for the outcomes of digital systems.</li>
+      </ul>
+
+      <h2>Ethical Considerations in Technology</h2>
+      <p>
+        - AI's role in decision-making (bias, fairness, transparency)<br />
+        - Balancing surveillance with civil liberties<br />
+        - Combatting the digital divide and promoting access
+      </p>
+
+      <h2>Ethical Technology Usage Statistics</h2>
+      <table class="ethics-table">
+        <thead>
+          <tr>
+            <th>Issue</th>
+            <th>Concern Level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Data Privacy</td>
+            <td>85%</td>
+          </tr>
+          <tr>
+            <td>Cybersecurity</td>
+            <td>78%</td>
+          </tr>
+          <tr>
+            <td>AI Bias</td>
+            <td>65%</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Resources on Digital Ethics</h2>
+      <p>
+        <a href="?">W3C Ethical Web Principles</a><br />
+        <a href="?">Stanford: Computer & Information Ethics</a><br />
+        <a href="?">Brookings Institution: Digital Ethics</a>
+      </p>
+
+      <p>By understanding digital ethics, we help shape a digital future that values fairness, responsibility, and respect for all individuals.</p>
+    </div>
+  </div>
+
+</body>
+</html>
