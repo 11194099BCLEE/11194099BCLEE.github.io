@@ -1,119 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>WebDev</title>
-    <style>
-        /* Grouping Selectors */
-        body, h1, h2, h3, p {
-          margin: 0;
-          padding: 0;
-          font-family: Arial, sans-serif;
-        }
-    
-        body {
-          background-color: #cfcece;
-          line-height: 1.6;
-        }
-    
-        /* Header Styling with Box Model and Positioning */
-        .header {
-          background-color: #391aac;
-          color: white;
-          padding: 20px;
-          text-align: center;
-          position: relative;
-          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-        }
-    
-        nav {
-          background-color: #333;
-        }
-    
-        /* Navigation Menu */
-        #navbar {
-          list-style: none;
-          overflow: hidden;
-          padding: 0;
-          margin: 0;
-        }
-    
-        #navbar li {
-          float: left;
-        }
-    
-        #navbar li a {
-          display: block;
-          color: white;
-          text-align: center;
-          padding: 14px 16px;
-          text-decoration: none;
-        }
-    
-        /* Dynamic Pseudo-classes */
-        #navbar li a:hover {
-          background-color: #111;
-        }
-    
-        #navbar li a:visited {
-          color: #ccc;
-        }
-    
-        /* Page Container using Box Model */
-        .container {
-          max-width: 1000px;
-          margin: 20px auto;
-          padding: 20px;
-          background: #fff;
-          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
-    
-        #about {
-          text-align: left;
-          margin-bottom: 10px;
-        }
-    
-        .container p {
-          margin-bottom: 15px;
-        }
-    
-        a {
-          color: #391aac;
-        }
-    
-        a:hover {
-          text-decoration: underline;
-        }
-    
-        /* Responsive Design */
-        @media (max-width: 768px) {
-          #navbar li {
-            float: none;
-          }
-        }
-      </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Website Design and Creation</title>
+  <style>
+    /* Reset and font styling */
+    body, h1, h2, h3, p, ul, li {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #cfcece;
+      line-height: 1.6;
+    }
+
+    /* Header Styling */
+    .header {
+      background-color: #391aac;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Navigation Bar */
+    nav {
+      background-color: #333;
+    }
+
+    #navbar {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    #navbar li {
+      float: left;
+    }
+
+    #navbar li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    #navbar li a:hover {
+      background-color: #111;
+    }
+
+    #navbar li a:visited {
+      color: #ccc;
+    }
+
+    /* Container Styling */
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .container h1 {
+      margin-bottom: 20px;
+    }
+
+    .container ul {
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+
+    .container p, .container a {
+      margin-bottom: 15px;
+      display: block;
+    }
+
+    a {
+      color: #391aac;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsive Nav */
+    @media (max-width: 768px) {
+      #navbar li {
+        float: none;
+      }
+    }
+  </style>
 </head>
-<nav>
+<body>
+
+  <div class="header">
+    <h1>Website Design and Creation</h1>
+  </div>
+
+  <nav>
     <ul id="navbar">
       <li><a href="Index.html">Home</a></li>
       <li><a href="Contact.html">Contact</a></li>
     </ul>
   </nav>
-<body>
-<h1>Website Design and Creation</h1>
-    <P>
-        This page is a demonstration of my ability to do website design, creation and development.
-    </P>
-<h2>Assignment Website</h2>
-<a href="???">AW Placeholder</a>
 
+  <div class="container">
+    <p>This page is a demonstration of my ability to do website design, creation, and development.</p>
 
-<h2>Exercise Web Pages</h2>
-<ul>
-    <li><a href="HealthyEating.html">Healthy Eating</a></li>
+    <h2>Assignment Website</h2>
+    <a href="#">AW Placeholder</a>
+
+    <h2>Exercise Web Pages</h2>
+    <ul>
+      <li><a href="HealthyEating.html">Healthy Eating</a></li>
       <li><a href="DigitalEthics.html">Digital Ethics</a></li>
       <li><a href="Equality.html">Equality and Diversity</a></li>
       <li><a href="Digitalfootprint.html">Digital Footprint</a></li>
     </ul>
+  </div>
+
 </body>
+</html>
